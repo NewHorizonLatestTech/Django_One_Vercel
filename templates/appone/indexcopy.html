@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../../static/image/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../../static/css/stylescopy.css">
+    <link rel="stylesheet" href="../../static/css/footercopy.css">
+    <link rel="stylesheet" href="../../static/css/doscopy.css">
+    <link rel="stylesheet" href="../../static/js/index.js">
+    <title>appone | index</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-container container">
+        <input type="checkbox" name="" id="" />
+        <div class="hamburger-lines">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>
+        <ul class="menu-items">
+          <a href="/appone/index"><img src="../../static/image/mode1.jpg"
+            style="width: 150px; height: 80px; position: relative; top: 20px;" alt=""></a>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/about">About</a>
+          </li>
+          <li>
+            <a href="/contact">Contact</a>
+          </li>
+          <li>
+            <a href="/index">Index</a>
+          </li>
+          <li>
+            <a href="/appone/">App One Home</a>
+          </li>
+          <li>
+            <a href="/appone/index">App One Index</a>
+          </li>
+          <li>
+            <a href="/apptwo/">App two Home</a>
+          </li>
+          <li>
+            <a href="/appthree/">App three Home</a>
+          </li>
+        </ul>
+        <h1 id="nature" style="position: relative; right: 70px;">Nature</h1>
+      </div>
+    </nav>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <H1 class="text-center" style="color: aliceblue;">ASSALAMUALIAKUM</H1>
+
+    <div>
+      <form method="POST" action="/">
+        {% csrf_token %}
+        <center>
+          <fieldset>
+            <input type="text" name="name" id="nameone" style="width: 150px; height: 30px; background-color: rgb(214, 195, 68);" placeholder="enter your name" />
+            <br /><br />
+            <input type="text" name="age" id="age" style="width: 150px; height: 30px; background-color: rgb(214, 195, 68);" placeholder="enter your age" />
+            <br /><br />
+            <input type="text" name="gender" id="gender" style="width: 150px; height: 30px; background-color: rgb(214, 195, 68);" placeholder="enter your gender" />
+            <br /><br />
+            <input type="text" name="Class" id="Class" style="width: 150px; height: 30px; background-color: rgb(214, 195, 68);" placeholder="enter your Class" />
+            <br /><br />
+            <legend>
+              <h1 style="color: aliceblue;">Login Form</h1>
+            </legend>
+          </fieldset>
+        </center>
+        <center>
+          <button style="width: 70px; height: 30px; background-color: rgb(214, 195, 68);" type="submit">SUBMITT</button>
+        </center>
+      </form> 
+      
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      
+    
+      <footer>
+        <div class="footer-waves">
+          <div class="wave" id="wave1"></div>
+          <div class="wave" id="wave2"></div>
+          <div class="wave" id="wave3"></div>
+          <div class="wave" id="wave4"></div>
+        </div>
+        <audio src="../static/image/videoplayback (1).mp4" controls autoplay loop></audio>
+        <ul class="footer-links">
+          <li>
+            <a class="footer-link" style="position: relative; left:110px ;" href="/">Home</a>
+          </li>
+          <li>
+            <a class="footer-link" style="position: relative; left:70px ;" href="/contact">Contact</a>
+          </li>
+          <li>
+            <a class="footer-link" style="position: relative; left:50px ;" href="/about">About</a>
+          </li>
+          <li>
+            <a class="footer-link" style="position: relative; left:25px ;" href="/index">Index</a>
+          </li>
+          <li>
+            <a class="footer-link" href="/appone/">App-one-Home</a>
+          </li>
+        </ul>
+      </footer>
+      
+    </div>
+
+  </body>
+</html>
