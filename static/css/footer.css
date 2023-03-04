@@ -1,0 +1,92 @@
+  footer {
+    position: relative;
+    background: #3586ff;
+    width: 100%;
+    min-height: 150px;
+    padding: 20px 50px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+  }
+  footer ul {
+    display: flex;
+    justify-content: center;
+  }
+  footer ul li {
+    list-style: none;
+  }
+.footer-icons {
+    position: relative;
+    right: 900vh;
+    height: 48px;
+    object-fit: contain;
+    margin: 0 20px;
+    z-index: -10;
+    transition: all ease-out 150ms;
+  }
+  footer .footer-icons:hover {
+    transform: translateY(-8px);
+  }
+  footer .footer-link {
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.25px;
+    transition: all ease-in 150ms;
+  }
+  footer li:hover,
+  .footer-link:hover {
+    transform: scale(1.05);
+  }
+  footer .wave {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(https://github.com/VivekMalhan666/css_animations/blob/master/Animated-Footer/wave.png?raw=true);
+    background-size: 1000px 100px;
+  }
+  footer #wave1 {
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animatedWave 4s linear infinite;
+  }
+  footer #wave2 {
+    z-index: 999;
+    opacity: 0.75;
+    bottom: 10px;
+    animation: animatedWave_02 4s linear infinite;
+  }
+  footer #wave3 {
+    z-index: 998;
+    opacity: 0.5;
+    bottom: 20px;
+    animation: animatedWave 3s linear infinite;
+  }
+  footer #wave4 {
+    z-index: 1000;
+    opacity: 0.25;
+    bottom: 30px;
+    animation: animatedWave_02 2s linear infinite;
+  }
+  @keyframes animatedWave {
+    0% {
+      background-position-x: 1000px;
+    }
+    100% {
+      background-position-x: 0;
+    }
+  }
+  
+  @keyframes animatedWave_02 {
+    0% {
+      background-position-x: 0;
+    }
+    100% {
+      background-position-x: 1000px;
+    }
+  }
